@@ -1,0 +1,253 @@
+@keyframes runbanner
+{
+10%{left:0%;}
+
+20%{left:-19%;}
+30%{left:-19%;}
+
+40%{left:-38%;}
+50%{left:-38%;}
+
+60%{left:-57%;}
+70%{left:-57%;}
+
+80%{left:-76%;}
+90%{left:-76%;}
+}
+
+
+
+body{
+
+}
+
+
+a:link{color:#e1b382;text-decoration:none}
+a:visited{color:white}
+a:hover{color:#e1b382}
+a:active{background:white}
+
+
+
+#contact{
+  background:#3e352c;width: 100%0;height:50px;margin-top:- 60px;text-align:right;
+}
+  .picstyle{
+    width: 20px;margin: 10px;
+  }
+
+    #f{
+      color:white;font-size: 30px;text-align:center;margin-top:-43px;margin-left:930px;
+    }
+
+    #b{
+        color:white; text-align: center;margin-top:-59px;font-size: 35px;text-shadow:2px 2px 2px  green;
+    }
+
+
+    #m{
+      color:white; text-align:left;margin-top:-59px;font-size: 15px;margin-left:160px;
+  }
+
+  #c{
+    color:white; text-align:left;margin-top:-31px;font-size: 15px;margin-left:40px;
+}
+
+
+ol{width:90%;list-style:none;text-align:center;margin-top:-30px;}
+
+ol li{display:inline-block;text-align:right;paddng:-21px;margin-right: 20px;box-radius:10px;}
+
+
+#top{
+    background:green;height: 50px;width: 100%;scroll-behavior: auto;
+}
+
+#a1{
+    width: 100px;height:50px;border-radius: 10px;
+}
+
+
+
+
+  #banner
+  {
+backgrond: red;width: 600%;height: 900px;overflow:hidden;
+  }
+
+
+        .pic 
+        {
+      width:19%;
+      height:900px;
+      position:relative;
+      margin-top:-7px;
+      margin-left:-10px;
+      animation:runbanner 15s infinite;
+        }
+  
+
+#bot{
+    color: green;text-align: center;font-size: 80px;text-shadow: 2px 2px 2px #12343b;margin-top:90px;
+  }
+  
+
+  #b1{
+    backgound:red;width: 25%;height: 250px;margin-bottom:-90px;margin-left:152px;box-shdow: 5px 5px 5px green;
+  }
+
+
+    #money{
+    width: 100px;margin-left:130px;margin-top:-15px;
+      }
+
+        #no{
+        color:green;font-size: 30px;text-align: center;;margin-top:-1px;
+      }
+
+
+              #no1{
+                color:black;font-size: 15px;text-align: center;text-align: justify;marg
+              }
+
+
+      
+
+  #b2{
+    width: 25%;height: 250px;margin-bottom:-90px;margin-left:510px;margin-top:-250px;box-shdow: 5px 5px 5px green;
+  }
+        #no{
+          color:green;font-size: 30px;text-align: center;
+        }
+
+
+        #money{
+          width: 100px;margin-left:130px;margin-top: 30px;
+        }
+
+            #no2{
+              color:black;font-size: 15px;text-align: center;text-align: justify;marg
+            }
+
+
+
+  #b3{
+    background:white;width: 25%;height: 250px;margin-bottom:-90px;margin-left:875px;margin-top:-250px;box-shaow: 5px 5px 5px green;
+
+  }
+        #no{
+          color:green;font-size: 30px;text-align: center;
+        }
+
+
+        #money{
+          width: 100px;margin-left:130px;margin-top: 30px;
+        }
+            #no3{
+              color:black;font-size: 15px;text-align: center;text-align: justify;marg
+            }
+
+
+#top3{
+      backgrond:red;width:70%;height:700px;margin-top:150px;
+      }
+
+         #exp{
+            width:300px;height:500px;padding:100px;border: radius;20%;
+            }
+
+              #twofive{
+                color: green;font-size: 90px;margin-left: 450px;margin-top:-600px;
+              }
+
+                  #year{
+                    color:green;font-size: 15px;text-align: center;text-align: justify;margin-left: 450px;margin-top:-60px;
+                  }
+
+
+                  #we{
+                    color:green;font-size: 50px;margin-left: 450px;margin-top:90px;
+                  }
+  
+                      #award{
+                        backgrund: black;width: 300px;height: 300px;margin-left: 1000px;margin-top:-520px;border-radius: 10px;
+                      }
+
+                      #dedi{
+                        backgound: black;width: 300px;height: 300px;margin-left: 1000px;margin-top:20px;border-radius: 10px;
+                      }
+
+
+                      #ex{
+                        color:green;font-size: 15px;text-align: center;text-align: justify;margin-left: 450px;margin-top:-60px;
+                      }
+
+                          #awa{
+                            width: 100px;margin-left: 90px;margin-top: 40px;
+                          }
+
+                          #te{
+                            width: 100px;margin-left: 90px;margin-top: 40px;
+                          }
+                              #teams{
+                                color:green;fnt-size: 10px;
+                              }
+                              #teamss{
+                                color:green;fnt-size: 10px;
+                              }
+
+
+#top4{
+  background: red;height: 150px;
+}
+
+
+#awar{
+color: green;font-size: 50px;text-align: right;margin-right:140px;
+}
+
+
+#achieve{
+  color: green;font-size: 50px;text-align: right;margin-right:140px;
+  }
+  
+
+
+  /*Extra small devices(phones,600px and down)*/
+
+@media only screen and (max-width:600px)
+{
+body{background:#12343b;}
+}
+
+
+/* Small devices (portrait tablets and large phones,600px and up)*/
+
+@media only screen and (min-width:600px)
+{
+body{backgroud:brown;}
+}
+
+/*Medium devices(landscape tablets, 768px and up)*/
+
+@media only screen and (min-width:768px)
+{
+body{backround:
+#f8c471;}
+}
+
+
+/*Large devices(laptop/desktops, 992px and up)*/
+
+@media only screen and (min-widht:992px)
+{
+body{backgrond:white;}
+}
+
+
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+
+@media only screen and (min-width:1200px)
+{
+body{backgrond:#12343b ;}
+}
